@@ -1,5 +1,5 @@
 type LabelString = "お名前" | "メールアドレス" | "電話番号" | "ご住所" | "ご希望の返信方法" | "連絡可能な時間帯（電話）" | "お問い合せの種類" | "お問い合せ内容";
-type InputTypeString =  "radio" | "checkbox" | "tel" | "email" | "text";
+// type InputTypeString =  "radio" | "checkbox" | "tel" | "email" | "text";
 type RadioInputItem =  {
   name: string;
   tagName: "input";
