@@ -116,7 +116,7 @@ function createInputRow(item: TextInputItem) {
       ${item.label}
       </th>
       <td>
-        <input name=${item.name} placeholder=${item.placeholder} />
+        <input name=${item.name} placeholder=${item.placeholder} type=${item.type} />
       </td>
     </tr>
   `;
