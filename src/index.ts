@@ -29,13 +29,13 @@ type SelectItem = {
   label: LabelString;
   options: { text: string; value: number }[];
 }
-type TextAreaItex = {
+type TextAreaItem = {
   name: string;
   tagName: "textarea";
   label: LabelString;
   placeholder: string;
 }
-type Item = InputItem | SelectItem | TextAreaItex;
+type Item = InputItem | SelectItem | TextAreaItem;
 
 const items: Item[] = [
   {
@@ -173,7 +173,7 @@ function createSelectRow(item: SelectItem) {
   `;
 }
 
-function createTextAreaRow(item: TextAreaItex) {
+function createTextAreaRow(item: TextAreaItem) {
   return `
     <tr>
       <th>
